@@ -1,13 +1,14 @@
 # Digging in the Dirt #
 The program can find and display the paths of all of the files in a directory and take action on some particular files
 
-## Part 1 ##
+## Program Functional Specification ##
+### Part 1 ###
 The program reads a line of input that specifies which files are eligible to be found
 - [x] D [path to a directory]
    *  print all the files in that directory
 - [x] R [path to a directory]
    *  print all the files in that directory, along with all of the files in its subdirectories, recursively
-## Part 2: ##
+### Part 2: ###
 The program now reads a line of input that describes the search characteristics that will be used to decide whether files are "interesting"
 - [x] A 
    *  print all of the files found in the previous step are considered interesting
@@ -21,7 +22,7 @@ The program now reads a line of input that describes the search characteristics 
    *  print the search whose file size, measured in bytes, is less than a specified threshold among all of the "interesting" files
 - [x] > [threshold]
    *  print the search whose file size, measured in bytes, is greater than a specified threshold among all of the "interesting" files
-## Part 3: ##
+### Part 3: ###
 The program will take action on the "interesting" files
 - [x] F 
    *  print the first line of text from the "interesting" file if it's a text file; print NOT TEXT if it is not.
