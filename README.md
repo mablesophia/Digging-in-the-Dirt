@@ -357,3 +357,64 @@ Please enter your narrow search command: F
 100,Thomas,Sales,5000
 
 ```
+### Case 5: ###
+```
+##############################################################################################
+Welcome to the program: Digging in the Dirt
+
+Command List:
+
+   D: list all of the files in current directory ONLY
+
+   R: list all of the files in current and sub directories
+
+   G: quit
+
+##############################################################################################
+Please enter your command: D /Users/sophialee/Documents
+/Users/sophialee/Documents/employee.txt.dup
+/Users/sophialee/Documents/.DS_Store
+/Users/sophialee/Documents/employee.ctl
+/Users/sophialee/Documents/.localized
+/Users/sophialee/Documents/invoice.doc
+/Users/sophialee/Documents/interview.docx
+/Users/sophialee/Documents/iliveinthe.oc
+/Users/sophialee/Documents/employee.txt
+##############################################################################################
+Search Command List:
+
+   A: search for all files that are prevously listed
+
+   N: search for files whose names exactly match a particular name
+
+   E: search for files whose names have a particular extension
+
+   T: search for text files that contain the given text
+
+   <: search for files whose size, measured in bytes, is less than a specified threshold
+
+   >: search for files whose size, measured in bytes, is greater than a specified threshold
+
+   G: quit
+
+##############################################################################################
+Please enter your search command: < 1000
+/Users/sophialee/Documents/.DS_Store
+/Users/sophialee/Documents/interview.docx
+##############################################################################################
+Narrow Search Command List:
+
+   F: print the first line of text from file if it is a text file; print NOT TEXT if not
+
+   D: make a duplicate copy of the file and store it in the same directory where the original
+                      resides, but the copy should have .dup appended to its filename
+
+   T: modify its last modified timestamp to be the current date/time
+
+   G: quit
+
+##############################################################################################
+Please enter your narrow search command: T
+/Users/sophialee/Documents/.DS_Store 2018-09-16 23:40:15.553557
+/Users/sophialee/Documents/interview.docx 2018-09-16 23:40:15.774842
+```
