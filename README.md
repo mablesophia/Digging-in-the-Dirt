@@ -33,7 +33,7 @@ The program will take action on the "interesting" files
 
 ## Result ##
 ### Case 1: ###
-```
+```python
 ##############################################################################################
 Welcome to the program: Digging in the Dirt
 
